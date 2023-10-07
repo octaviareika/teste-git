@@ -18,7 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 50px;
     height: 75px;
 
 }
@@ -65,10 +65,12 @@ body {
     align-items: center;
     justify-content: center;
     color: blueviolet;
+    text-shadow: #DDA0DD;
+    letter-spacing: 10px;
     text-align: center;
-    padding: 15px 0 15px 0;
+    padding: 10px 0 10px 0;
     background-color: #DDA0DD;
-    box-shadow: 7px 8px #BA55D3; /* em cima e embaixo respectivamente */
+    box-shadow: blueviolet 0px 25px 20px -20px;
 }
 
 .titulo_pagina:hover {
@@ -111,12 +113,29 @@ strong {
     border-radius: 16px;
     text-align: center;
     font-weight: 400px; /* peso da fonte */
-    height: 15px;
-    border-color: blueviolet;
+    height: 40px;
+    /*border-color: blueviolet;
     background-color:#DDA0DD;
     border-style: solid;
     text-decoration: none; /* tirar o risco que aparece embaixo do link */ 
-    color: black;
+    /*color: black;*/
+    background:  #DDA0DD;
+    border-radius: 999px;
+    box-shadow: #cf72cf  10px 20px -10px;
+    box-sizing: border-box;
+    color: #933fa8;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-decoration: none;
+    border: 0;
+
 }
 
 .link_util:hover {
@@ -159,7 +178,10 @@ strong {
 
 .preencha_lista {
     text-align: center;
-    color: black;
+    color: darkorchid;
+    padding: 20px;
+    border-radius: 10px;
+    bor
 }
 
 .lista {
@@ -177,6 +199,7 @@ li {
     border-radius: 40px;
     border-color: #DDA0DD;
     border-style: solid;
+    box-shadow: #cf72cf 0px 54px 55px, #eecbee 0px -12px 30px, #cf72cf 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 li:hover {
@@ -188,9 +211,10 @@ li:hover {
 
 .topico_lista {
     padding-bottom: 10px;
+    background-color: ;
 }
 
-.topico_lista:active {
+.topico_lista:hover {
     color: blueviolet;
 }
 
